@@ -1,0 +1,95 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333333;
+  }
+  
+  .intro {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .intro p {
+    line-height: 1.6;
+    color: #666666;
+  }
+  
+  .image-section {
+    text-align: center;
+    margin: 40px 0;
+  }
+  
+  .dealer-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 40px 0;
+  }
+  
+  .dealer-table th, .dealer-table td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .dealer-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .advantages {
+    margin: 40px 0;
+  }
+  
+  .advantages ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .advantages li {
+    line-height: 1.6;
+    color: #666666;
+  }
+  
+  .government-links {
+    margin: 40px 0;
+  }
+  
+  .government-links a {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .button {
+    text-align: center;
+  }
+  
+  .button a {
+    display: inline-block;
+    background-color: #FF5722;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+  }
+
+  a{
+    color:#666666;
+  }
+
+ nav > ul > li > a{
+    color:#fff;
+ }

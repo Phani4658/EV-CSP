@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+    font-family: 'Roboto';
+}
+body{
+    margin: 0px;
+    padding:0px;
+}
+nav{
+    margin:0;
+    padding:28px 16px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #181818;
+}
+nav > ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+nav > ul > li{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 20px;
+    color:#fff;
+}
+.logo{
+
+    font-weight: 700;
+    font-size: 24px;
+    margin: 0;
+    text-align: center;
+    padding:8px 10px;
+    border: #fff 2px solid;
+    width: 60px;
+    color:#fff;     
+    height: 30px;
+}
+
+a{
+    text-decoration: none;
+    color:#fff;
+}
+
+.header-video{
+    width: 100%;
+    height: 100% ;
+}
+
+header{
+    background-color: #000;
+    color:#fff;
+    position: relative;
+}
+
+
+.header-text-container{
+    width: 500px;
+    position: absolute;
+    color:#fff;
+    top: 140px;
+    left:35%;
+}
+
+.header-title{
+    font-size: 56px;
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+}
+
+section{
+    padding:24px 120px;
+}
+
+.about-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-text-container{
+    width: 70%;
+    font-size: 20px;
+}
+
+img{
+    width: 25%;
+    margin-left: 30px;
+    border-radius: 8px;
+}
+
+h2{
+    margin-left:0 ;
+}
+
+.project-documentation{
+    background-color: #DBDFEA;
+    color:#181818;
+    font-size: 18px;
+}
+.links-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.links-container > a{
+    color:#181818;
+    flex-grow: 1;
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: 800;
+    width: 50%;
+    display: block;
+}
+
+.home-bg{
+    background-image: url('./assets/homeTreeBg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    border-radius: 20px;
+    position: relative;
+    margin:0 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+}
+
+.bg-gradient{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: #00000080;
+    border-radius: 20px;
+}
+
+.home-bg > p{
+    font-size: 48px;
+    width: 700px;
+    text-align: center;
+    color:#fff;
+    font-weight: 700;
+    z-index: 2;
+    margin: 10px;
+}
+
+.person-name{
+    text-align: right !important;
+    font-size: 28px !important;
+    margin-top: 10px !important;
+}
+
+
+.guides-heading{
+    font-size: 32px;
+    text-align: center;
+}
+.guides-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 700px;
+    margin: auto;
+    background-position: center;
+}
+
+.guide-image{
+    border-radius: 50%;
+    width: 200px;
+    height: 250px;
+    margin-bottom: 10px;
+}
+
+.guide-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.guide-card > h3,.guide-card > h4{
+    margin: 4px;
+}
+
+.thanks-to-college > h3{
+    font-size: 22px;
+    text-align: center;
+}
+
+.thanks-to-college > div{
+    display: flex;
+    align-items:flex-start;
+    justify-content: flex-start;
+    gap:10px;
+
+}
+
+.college-bg{
+    background-image: url('./assets/College');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+
+}
+
+.thanks-to-college>div > p{
+    font-size: 22px;
+    width: 60%;
+    z-index: 2;
+    margin: auto;
+    color:#fff;
+}
+
+.meet-us-section{
+    display: flex;
+    gap:18px;
+    font-size: 18px;
+}
+
+.meet-us-section img{
+    width:40%;
+    height: 60%;
+}
+
+footer{
+    text-align: center;
+    padding:20px;
+    background-color: #606C5D;
+    color:#fff; 
+}

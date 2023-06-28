@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="./index.css" />
+  <style>
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 20px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    h2{
+      text-align: center;
+    }
+    
+    .gallery-item {
+      position: relative;
+      overflow: hidden;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+    
+    .gallery-item img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      transition: transform 0.3s ease-in-out;
+    }
+    
+    .gallery-item:hover img {
+      transform: scale(1.05);
+    }
+    
+    .gallery-item .caption {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      padding: 10px;
+      background-color: rgba(0, 0, 0, 0.5);
+      color: #fff;
+      font-size: 14px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="./index.html">
+        <p class="logo">EV.</p>
+    </a>
+    <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./projectDetails.html">Project Information</a></li>
+        <li><a href="./surveydata.html">Survey Data</a></li>
+        <li><a href="./statistics.html">Statistics</a></li>
+        <li><a href="./gallery.html">Gallery</a></li>
+    </ul>
+</nav>
+  <h2>Survey Photos</h2>
+  <div class="gallery">
+    <div class="gallery-item">
+      <img src="./assets/gallery1.jpeg" alt="Survey Photo 1">
+      <div class="caption">Survey Photo 1</div>
+    </div>
+    <div class="gallery-item">
+      <img src="./assets/gallery2.jpeg" alt="Survey Photo 2">
+      <div class="caption">Survey Photo 2</div>
+    </div>
+    <div class="gallery-item">
+      <img src="./assets/gallery3.jpeg" alt="Survey Photo 3">
+      <div class="caption">Survey Photo 3</div>
+    </div>
+    <div class="gallery-item">
+      <img src="./assets/gallery4.jpeg" alt="Survey Photo 4">
+      <div class="caption">Survey Photo 4</div>
+    </div>
+    <div class="gallery-item">
+      <img src="./assets/gallery5.jpeg" alt="Survey Photo 5">
+      <div class="caption">Survey Photo 5</div>
+    </div>
+    <div class="gallery-item">
+      <img src="./assets/gallery6.jpeg" alt="Survey Photo 6">
+      <div class="caption">Survey Photo 6</div>
+    </div>
+  </div>
+</body>
+</html>
